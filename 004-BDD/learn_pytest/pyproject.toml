@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "learn-pytest"
+version = "0.1.0"
+description = ""
+authors = ["ManiMozaffar <mani.mozaffar@gmail.com>"]
+readme = "README.md"
+packages = [{include = "learn_pytest"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.1"
+fastapi = "^0.103.1"
+sqlalchemy = "^2.0.20"
+httpx = "^0.24.1"
+pytest-cov = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
